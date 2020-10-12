@@ -31,33 +31,24 @@ function listItems(deliveryOrders) {
   };
 //-------------------------------------------------------
 
-function searchOrder(deliveryOrders) {
+function searchOrder(deliveryOrders,food) {
 
-  for (var i = 0; i < deliveryOrders; i++) {
-    if (deliveryOrders[i].item === 'burger') {
+  for (var i = 0; i < deliveryOrders.length; i++) {
+    if (deliveryOrders[i].item === food) {
+      return true
     }
-  }
+  } return false
 };
 
 
 
+
+
 //---------------------------  ^
-order1.orderNumber
+// order1.orderNumber
 // order2.orderNumber
 // order3.orderNumber
 // this is the the iteration how the [i] works.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
